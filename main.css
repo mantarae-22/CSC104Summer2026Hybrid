@@ -1,0 +1,18 @@
+ /* the body selector will apply styles to the whole page */
+body{
+    /* background color will be for the whole page */
+    background-color: black;
+    /* color will affect all of the text color for the whole page */
+    color: white;
+    /* font family allows us to change the type face or font; the order is important - the browser will try to to use the first font listed, then if that font is not available, it will try to use the next font listed */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: purple;
+}
+
+/* the embedded styles will be over written / over ruled by inline styles */
+h4{
+    color: yellow;
+}

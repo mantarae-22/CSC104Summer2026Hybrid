@@ -1,0 +1,98 @@
+<!-- Ctrl + ? - this is the shortcut to create a comment - comment is a note we make for ourselves or other developers
+     Shift + 1 - choose the single ! - that will build the default HTML tags that we need on each page -->
+<!DOCTYPE html> <!-- HTML 5 is the current version of HTML - the !DOCTYPE html tag tells the browser that this is an HTML 5 webpage  -->
+<!-- the 2nd line of our code should be an html tag; language = English is optional -->
+<html lang="en">
+<!-- head section should be right after the opening html tag; info here is primarily for the browsers and search engines -->
+<head>
+    <!-- any character in any language may appear on our page -->
+    <meta charset="UTF-8">
+    <!-- this is the first step in having our pages look good on a mobile device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- the title is what the user will see in the browser tab - it needs to be short, sweet and descriptive -->
+    <title>CSC104 HTML Basics</title>
+
+    <!-- link to the external css file -->
+    <link rel="stylesheet" href="main.css">
+
+     <!-- you can still use embedded styles -->
+    <style>
+        h2{
+            color: blue;
+        }
+    </style>
+   
+</head>
+<!-- the body section is where we add the content that we want the user to see -->
+<body>
+    <!-- h1 is the page title - heading level 1 - we should have 1 and only 1 h1 tag on a webpage -->
+    <h1>CSC104 HTML Basics</h1>
+
+    <!-- h2 is the 2nd level heading - this is good for sub heading/title - we can have as many h2 tags as we need -->
+    <h2>HTML Info</h2>
+
+    <!-- p is the paragraph tag - this is a great tag to use when you have several sentences of text; the browser will automatically add some spacing around the paragraph -->
+    <p>
+        HTML stands for HyperText Markup Language. HTML provides the structure for our webpages. It can contain text, images, video within the tags. There are numerous amounts of tags that you can use. HTML does not have many rules, but has many best practices. 
+    </p>
+    <!-- Alt + z will wrap the text in VS Code -->
+    
+    <!-- h3 is the 3rd level heading, smaller than h2 -->
+    <h3>HTML Versions</h3>
+
+    <!-- ul is an unordered list - it is the parent tag for creating a bullet-point list -->
+    <ul>
+        <!-- for each item in the list, put the text between li tags - li is list item -->
+        <li>HTML 1.0 - developed in the early 1990's</li>
+        <li>HTML 2.0 - released in 1995</li>
+        <li>HTML 3.2 - released in 1997</li>
+        <li>HTML 4.01 - released in 1999</li>
+        <li>HTML 5 - released in 2014 (this is the current version)</li>
+    </ul>
+
+    <!-- This h2 will start our CSS section -->
+    <h2>CSS Info</h2>
+
+    <p>
+        CSS stands for Cascading Style Sheets and makes our HTML content look better. CSS can control layout, colors, font - any of our layout and design principles. Any default browser styling can be changed with CSS.
+    </p>
+
+    <!-- another h3 to match the HTML section -->
+    <h3>CSS Versions</h3>
+
+    <!-- another unordered list with list items -->
+    <ul>
+        <li>CSS1 - released in 1996</li>
+        <li>CSS2 - released in 1998</li>
+        <li>CSS3 - released in 2011 (this is the current version)</li>
+    </ul>
+
+    <h3>Basic Structure</h3>
+
+    <!-- the browser will not try to format code in between pre tags; 
+        {} are curly braces - typically located above the square bracket on the keyboard -->
+    <pre>
+        selector{
+            property: value;
+        }
+    </pre>
+
+    <ul>
+        <li>Selector - can be any HTML element, Custom class or an ID of an HTML element</li>
+        <li>Property - design element we want to change</li>
+        <li>Value - whatever we want to change the design element to</li>
+    </ul>
+
+    <!-- this is an inline style - a legal way to change any of the ways that this element looks; try to avoid using inline styles (except for testing) because they end up causing a lot of maintenance issues -->
+    <h4 style="color: rgb(13, 87, 13);">Ways to Include CSS in our Webpage</h4>
+
+    <ul>
+        <li>External - this is the best practice - for example, main.css</li>
+        <li>Embedded - styles are located in the webpage</li>
+        <li>Inline - add CSS style(s) to a particular HTML element</li>
+    </ul>
+
+<!-- this closing body tag should be the next to last line of our webpage -->
+</body>
+<!-- this closing html tag - /html should be the last line of our html file -->
+</html>
