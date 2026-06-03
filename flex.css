@@ -1,0 +1,26 @@
+ body{
+    background-color: rgb(19, 19, 99);
+    color: rgb(238, 238, 238);
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    /* flex direction row is the default setting - this causes flex content to go horizontally across the screen */
+    flex-direction: row;
+}
+
+/* using only img affects all images on the page (globally)
+    using article img affects only images within an article (parent) */
+article img{
+    width: 200px;
+}
+
+/* any styles in this section will only apply to smaller screen sizes */
+@media (max-width: 768px){
+    main{
+        /* this will cause the content to stack vertically on the smaller screen size */
+        flex-direction: column;
+    }
+}
