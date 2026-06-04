@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beach Slideshow</title>
+
+    <link rel="stylesheet" href="slideshow.css">
+</head>
+<body>
+    <header>
+        <h1>Beach Slideshow</h1>
+    </header>
+    <main>
+        <div id="divSlideshow">
+            <img id="imgSlide" src="" alt="Beach">
+        </div>
+        <div>
+            <button onclick="prevSlide()">Previous</button>
+            <button onclick="nextSlide()">Next</button>
+        </div>
+    </main>
+
+    <script src="slideshow.js"></script>
+
+    <script>
+        // load an image when the page first loads
+        showSlide(currImage);
+    </script>
+</body>
+</html>

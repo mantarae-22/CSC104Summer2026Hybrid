@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(192, 237, 237);
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    align-items: center;
+    text-align: center;
+}
+
+#divSlideshow{
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#divSlideshow img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border: none;
+    font-size: large;
+    border-radius: 8px;
+    margin: 10px;
+}
