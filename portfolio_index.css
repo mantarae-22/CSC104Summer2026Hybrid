@@ -1,0 +1,14 @@
+ body{
+    background-image: url('./images/elizeu-dias-RN6ts8IZ4_0-unsplash.jpg');
+    background-position: center;
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+}
+
+h1, h2{
+    background-color: rgba(105, 105, 235, .5);
+}
+
+.hero-img{
+    width: 100%;
+}
